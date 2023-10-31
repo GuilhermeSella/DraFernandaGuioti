@@ -22,10 +22,6 @@ body {
     background-color: white;
 }
 
-.header .navbar #logo {
-    color: rgb(255, 128, 0);
-}
-
 .header.scroll .navbar h1 {
     color: black;
 }
@@ -84,7 +80,7 @@ body {
 
 
 .header.scroll .navbar ul li a:hover {
-   color: rgb(248, 89, 116);
+   color: #995F88;
 }
 
 
@@ -121,7 +117,7 @@ body {
     gap: 10%;
     align-items: center;
     background: no-repeat center/cover url(imgs/banner.jpg);
-        padding: 15vh 0;
+    padding: 15vh 0;
     flex-wrap: wrap;
 }
 .banner .banner-info section{
@@ -142,12 +138,12 @@ body {
 
 .banner .banner-info section a{
     margin-top: 20px;
-    color: pink;
-    background-color: white;
+    color: white;
+    background-color: #995F88;
     text-decoration: none;
-    border: 1.5px solid white;
-    padding: 15px 25px;
-    font-size: 1.1rem;
+    border:none;
+    padding: 18px 25px;
+    font-size: 1.25rem;
     font-weight: 600;
     border-radius: 10px;
     transition: 0.5s ease-in-out;
@@ -167,7 +163,7 @@ body {
 
 .section-sobre-mim{
     width:100%;
-    padding: 20vh 50px;
+    padding: 20vh 30px 10vh 30px;
     display:flex;
     flex-direction: column;
     align-items: center;
@@ -190,12 +186,22 @@ body {
     flex-wrap: wrap;
 }
 .section-sobre-mim figure{
-    width: 95vw;
-    max-width: 380px;
-    height:35vh;
-    background: pink;
+    width: 400px;
+    height:400px;
+    background: no-repeat left/cover url("imgs//imagemsobremim.jpg");
     border-radius: 100%;
-
+}
+@media screen and (max-width:625px) {
+    .section-sobre-mim figure{
+        width: 300px;
+        height:300px;
+    }
+}
+@media screen and (max-width:360px) {
+    .section-sobre-mim figure{
+        width: 250px;
+        height:250px;
+    }
 }
 
 .section-sobre-mim div{
@@ -208,11 +214,12 @@ body {
 
 .section-sobre-mim div h1{
     font-size: 2.8rem;
-    color: pink;
+    color: #995F88;
 }
 
 .section-sobre-mim div p{
-    font-size: 1.3rem;
+    font-size: 1.5rem;
+    font-weight: 500;
 }
 
 
@@ -246,7 +253,7 @@ body {
 
 .section-especialidades  .title{
     text-align: center;
-    color: pink;
+    color: #995F88;
     font-family: 'Jost', sans-serif;
     font-size: 2.8rem;
 }
@@ -274,7 +281,7 @@ body {
     align-items: center;
     justify-content: center;
     gap: 20px;
-    background-color: pink;
+    background-color: #995F88;
     padding: 100px 40px;
 }
 
@@ -285,7 +292,7 @@ body {
 
 .precisa-de-ajuda a{
     text-align: center;
-    color: pink;
+    color: #995F88;
     background-color: white;
     text-decoration: none;
     border: 1.5px solid white;
