@@ -7,6 +7,7 @@
     <title>Doutora Fernanda Guioti</title>
    <link rel="stylesheet" href="style.css">
    <link rel="stylesheet" href="hamburguer.css">
+   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
     <header class="header ">
@@ -73,7 +74,7 @@
             <section>
                 <h1>Dra. Fernanda Guioti</h1>
                 <p>CRM: 134.141 - RQE: 103066</p>
-                <a target="_blank" href="https://api.whatsapp.com/send?phone=5516981910927">
+                <a data-aos="fade-up" target="_blank" href="https://api.whatsapp.com/send?phone=5516981910927">
                     Agendar Consulta
                 </a>
             </section>
@@ -110,7 +111,7 @@
         <h1 class="title">Doenças Tratadas</h1>
 
             <main>
-                <div class="div-doenca">
+                <div class="div-doenca" data-aos="fade-right">
                     <div>
                         <img class="img-doenca" src="imgs/icons/iconDoenças.png" alt="">
                         <h1>HIV e AIDS</h1>
@@ -118,7 +119,7 @@
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati repellendus, sapiente dicta aperiam facilis a libero harum cumque mollitia, culpa voluptas quis saepe eos repudiandae pariatur quas adipisci doloribus soluta?</p>
                 </div>
 
-                <div class="div-doenca">
+                <div class="div-doenca" data-aos="fade-right">
                     <div>
                         <img class="img-doenca" src="imgs/icons/iconDoenças.png" alt="">
                         <h1>Herpes Zoster</h1>
@@ -126,7 +127,7 @@
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati repellendus, sapiente dicta aperiam facilis a libero harum cumque mollitia, culpa voluptas quis saepe eos repudiandae pariatur quas adipisci doloribus soluta?</p>
                 </div>
 
-                <div class="div-doenca">
+                <div class="div-doenca" data-aos="fade-right">
                     <div>
                         <img class="img-doenca" src="imgs/icons/iconDoenças.png" alt="">
                         <h1>Complicações Infecciosas na Gravidez</h1>
@@ -134,7 +135,7 @@
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati repellendus, sapiente dicta aperiam facilis a libero harum cumque mollitia, culpa voluptas quis saepe eos repudiandae pariatur quas adipisci doloribus soluta?</p>
                 </div>
 
-                <div class="div-doenca">
+                <div class="div-doenca" data-aos="fade-right">
                     <div>
                         <img class="img-doenca" src="imgs/icons/iconDoenças.png" alt="">
                         <h1>Doenças Parasitárias</h1>
@@ -142,14 +143,14 @@
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati repellendus, sapiente dicta aperiam facilis a libero harum cumque mollitia, culpa voluptas quis saepe eos repudiandae pariatur quas adipisci doloribus soluta?</p>
                 </div>
 
-                <div class="div-doenca">
+                <div class="div-doenca" data-aos="fade-right">
                     <div>
                         <img class="img-doenca" src="imgs/icons/iconDoenças.png" alt="">
                         <h1>Toxoplasmose</h1>
                     </div>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati repellendus, sapiente dicta aperiam facilis a libero harum cumque mollitia, culpa voluptas quis saepe eos repudiandae pariatur quas adipisci doloribus soluta?</p>
                 </div>
-                <div class="div-doenca">
+                <div class="div-doenca" data-aos="fade-right">
                     <div>
                         <img class="img-doenca" src="imgs/icons/iconDoenças.png" alt="">
                         <h1>Leishmaniose</h1>
@@ -171,8 +172,8 @@
 
 
     <section class="precisa-de-ajuda">
-        <h1>Precisa de ajuda para cuidar da sua saúde?</h1>
-        <a href="">Agendar consulta</a>
+        <h1 data-aos="fade-up">Precisa de ajuda para cuidar da sua saúde?</h1>
+        <a data-aos="fade-up" target="_blank" href="https://api.whatsapp.com/send?phone=5516981910927">Agendar consulta</a>
     </section>
 
 
@@ -186,8 +187,8 @@
     <section class="section-clinica" id="Clínica">
 
        
-        <main>
-            <img src="imgs/consultorioimg.jpg" alt="">
+        <main data-aos="fade-right">
+            <img  src="imgs/consultorioimg.jpg" alt="">
             <div>
                 <h1 class="title">Clínica</h1>
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quod qui porro perspiciatis, assumenda corporis, libero repellendus odio harum, distinctio maxime sequi id pariatur optio omnis culpa impedit delectus esse fuga? Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque maiores exercitationem cum quae officiis, eius doloremque similique, rem ipsam magni illum, sed voluptatem quasi eaque corrupti pariatur. Harum, recusandae doloremque.</p>
@@ -243,6 +244,13 @@
 
 
     <script src="main.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        duration:1000,
+        
+      });
+    </script>
 </body>
 
 
