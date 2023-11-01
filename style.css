@@ -5,6 +5,10 @@
     margin: 0;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: sans-serif;
 }
@@ -61,7 +65,7 @@ body {
 }
 
 .navbar a:hover {
-    color: rgb(248, 89, 116);
+    color: #995F88;
 }
 
 .navbar ul {
@@ -163,7 +167,7 @@ body {
 
 .section-sobre-mim{
     width:100%;
-    padding: 20vh 30px 4vh 30px;
+    padding: 20vh 30px 0vh 30px;
     display:flex;
     flex-direction: column;
     align-items: center;
@@ -206,9 +210,9 @@ body {
 
 .section-sobre-mim div{
     font-family: 'Jost', sans-serif;
-    
     display: flex;
     flex-direction: column;
+    gap: 30px;
     max-width: 500px;
 }
 
@@ -228,7 +232,7 @@ body {
 .section-especialidades{
     width:100%;
     
-    padding: 0vh 20px 20vh 20px;
+    padding: 10vh 20px 20vh 20px;
    
     display:flex;
     flex-direction: column;
@@ -247,8 +251,41 @@ body {
     width:100%;
     display: flex;
     text-align: center;
-    max-width: 1300px;
     flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 100px;
+    padding: 10vh 20px;
+}
+
+.section-especialidades main .div-doenca{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; 
+    gap: 10px;
+    text-align: left;
+    max-width: 900px;
+    font-family: 'Jost', sans-serif;
+}
+
+.section-especialidades main .div-doenca div{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 15px;
+}
+.section-especialidades main .div-doenca .img-doenca{
+    width: 60px;
+    height: 60px;
+}
+
+
+.section-especialidades main .div-doenca h1{
+    color: #995F88;
+}
+
+.section-especialidades main .div-doenca p{
+    font-size: 1.4rem;
+    text-justify: distribute;
 }
 
 .title{
