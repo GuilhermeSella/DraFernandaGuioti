@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Jost:wght@200;300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600&display=swap');
 * {
     box-sizing: border-box;
     padding: 0;
@@ -41,7 +41,7 @@ body {
     align-items: center;
     width: 100%;
     transition: 0.2s;
-    font-family: 'Jost', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 
@@ -109,7 +109,7 @@ body {
 .banner {
     display: flex;
     height: 100vh;
-    font-family: 'Jost', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     color: white;
 }
 
@@ -131,8 +131,8 @@ body {
     
 }
 .banner .banner-info section h1 {
-    font-weight: normal;
-    font-size: 3.2em;
+    font-weight: bold;
+    font-size: 2.6em;
     text-align: center;
 }
 .banner .banner-info section p{
@@ -209,7 +209,7 @@ body {
 }
 
 .section-sobre-mim div{
-    font-family: 'Jost', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     display: flex;
     flex-direction: column;
     gap: 30px;
@@ -222,7 +222,7 @@ body {
 }
 
 .section-sobre-mim div p{
-    font-size: 1.4rem;
+    font-size: 1.25rem;;
     font-weight: 500;
 }
 
@@ -253,7 +253,7 @@ body {
     text-align: center;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    gap: 100px;
+    gap: 120px;
     padding: 10vh 20px;
 }
 
@@ -264,7 +264,7 @@ body {
     gap: 10px;
     text-align: left;
     max-width: 900px;
-    font-family: 'Jost', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .section-especialidades main .div-doenca div{
@@ -283,15 +283,21 @@ body {
     color: #995F88;
 }
 
+@media screen and (min-width:1083px) {
+    .section-especialidades main .div-doenca h1{
+        text-align: left;
+    }
+}
+
 .section-especialidades main .div-doenca p{
-    font-size: 1.4rem;
+    font-size: 1.25rem;
     text-justify: distribute;
 }
 
 .title{
     text-align: center;
     color: #995F88;
-    font-family: 'Jost', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 2.5rem;
 }
 
@@ -328,8 +334,8 @@ body {
 }
 
 .section-clinica main div p{
-    font-family: 'Jost', sans-serif;
-    font-size: 1.4rem;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.25rem;
     font-weight: 500;
 }
 
@@ -346,7 +352,7 @@ body {
 
 
 .precisa-de-ajuda{
-    font-family: 'Jost', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     color: white;
     width: 100%;
     display: flex;
@@ -354,7 +360,7 @@ body {
     align-items: center;
     justify-content: center;
     gap: 20px;
-    background-color: #995F88;
+    background: #995F88;
     padding: 100px 40px;
 }
 
@@ -433,7 +439,7 @@ footer nav ul{
 footer nav ul li a{
     text-decoration: none;
     color: white;
-    font-family: 'Jost', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 1.35rem;
     transition: 0.5s ease;
     
