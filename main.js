@@ -7,6 +7,36 @@ window.addEventListener("scroll", () => {
     // hamburguer.classList.toggle('scroll', window.scrollY > 7)
 });
 
+
+// const divVerMais = document.querySelectorAll("#ver-mais")
+// const btnVerMais = document.querySelector(".btn-vermais")
+// const btnVerMenos = document.querySelector(".btn-vermenos")
+
+
+// const verMaisEspecialidades = ()=>{
+
+
+//     for(let i=0; i<divVerMais.length; i++){
+//         divVerMais[i].style.display ='flex'
+//     }
+
+//     btnVerMais.style.display = 'none'
+//     btnVerMenos.style.display = 'block'
+
+// }
+
+// const verMenosEspecialidades = ()=>{
+
+
+//     for(let i=0; i<divVerMais.length; i++){
+//         divVerMais[i].style.display ='none'
+//     }
+
+//     btnVerMais.style.display = 'block'
+//     btnVerMenos.style.display = 'none'
+
+// }
+
 // const menuHambuguer = document.querySelector("#menu-hamburguer")
 
 // menuHambuguer.addEventListener("click", () => {
